@@ -24,7 +24,7 @@ El enfoque está en el uso de **sockets TCP y UDP**, entendiendo su configuraci�
   - Diagnosticar y depurar errores de red
 
 - **Base para herramientas como SSH, HTTP, FTP, MQTT, etc.**  
-  Todas estas tecnologías están basadas en sockets TCP/IP o UDP.
+  Todas estas tecnologías están basadas en sockets TCP/IP o UDP
 
 ---
 
