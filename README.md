@@ -301,4 +301,9 @@ int main() {
 
 ---
 
+## 6. Imagenes
+
+<img width="1356" height="716" alt="image" src="https://github.com/user-attachments/assets/e4c122e0-e01b-4958-bbb6-a7ca1c5806e4" />
+
+
 
