@@ -1,6 +1,44 @@
 # Sistemas-Operativos-de-Proposito-General
 Materia de especialización en Sistemas Embebidos UBA
 
+## 🎯 Objetivo de la Clase de Sockets
+
+El objetivo principal de esta clase es que el estudiante comprenda cómo se puede establecer una **comunicación entre procesos a través de la red**, utilizando el modelo de **Sockets** en sistemas operativos tipo **UNIX/Linux**.  
+El enfoque está en el uso de **sockets TCP y UDP**, entendiendo su configuración, su funcionamiento y cómo implementar clientes y servidores básicos.
+
+---
+
+## 📌 Importancia del Estudio de Sockets
+
+- **Fundamento para aplicaciones distribuidas**:  
+  Hoy en día, casi toda aplicación moderna se comunica con servidores externos (APIs, bases de datos remotas, servicios web).  
+  Entender sockets es la base de estas comunicaciones.
+
+- **Soporte en múltiples lenguajes y plataformas**:  
+  El modelo de sockets es estándar y puede usarse en C, Python, Java, etc., así como en Windows, Linux y sistemas embebidos.
+
+- **Relevancia profesional**:  
+  En redes, IoT, sistemas embebidos y desarrollo de servidores, los sockets son clave para:
+  - Diseñar protocolos personalizados
+  - Optimizar rendimiento en comunicaciones
+  - Diagnosticar y depurar errores de red
+
+- **Base para herramientas como SSH, HTTP, FTP, MQTT, etc.**  
+  Todas estas tecnologías están basadas en sockets TCP/IP o UDP.
+
+---
+
+## 🧩 ¿Para qué sirven los Sockets?
+
+Un **socket** es un punto final de comunicación. Sirve para:
+
+- 📥 **Recibir conexiones** (ejemplo: un servidor web)
+- 📤 **Establecer conexiones** (ejemplo: un cliente que se conecta a un servidor)
+- 📡 **Transmitir y recibir datos** de forma confiable o rápida según el tipo de socket (TCP vs UDP)
+
+
+
+
 # Trabajo Práctico: Servidor TCP Clave-Valor
 
 ## 1. Instalación de herramientas necesarias (Windows + WSL)
@@ -263,6 +301,4 @@ int main() {
 
 ---
 
-### Autor: *Tu nombre aquí*
 
-Este trabajo puede ser subido a GitHub como ejemplo de práctica de redes usando sockets TCP en C.
